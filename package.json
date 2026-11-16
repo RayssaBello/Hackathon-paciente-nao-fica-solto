@@ -1,0 +1,16 @@
+{
+  "name": "paciente-nao-fica-solto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP (hackathon) - agente que transforma conduta médica FICTÍCIA em tarefas com follow-up simulado. Somente dados sintéticos.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "mock": "node src/server.js --mock",
+    "test": "node --test test/aceitacao.test.js",
+    "fixtures": "node scripts/gerar-fixtures.js"
+  }
+}
